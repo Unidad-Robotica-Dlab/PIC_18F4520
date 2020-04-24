@@ -1,9 +1,7 @@
-# PIC_18F4520
+# ENCODER 2f-400
 
-*Herramientas: -MPLAB 8.89 -Pickit2 o Superior
-
-*Configuración Fuses: -config.h
-
-*Ejemplos Componentes: -Encoder 2 Fase 400p.
-
-*Proyectos: -Implementación de códigos
+///////////////////////////////////////////
+//rotary encoder LPD3806-400BM-G5-24C
+//Puerto RB4=A RB5=B
+//Puerto Serial232 xmit=PIN_C6 rcv=PIN_C7
+///////////////////////////////////////////
