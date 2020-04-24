@@ -1,0 +1,134 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     @INTERRUPT_AREA
+018     @INTERRUPT_AREA
+019-01A contador
+01B     enc
+01C     aux
+01D-01E @sprintf_string
+01F-020 @PRINTF_LD_9600_31766_31767.P1
+01F     lcd_init.i
+01F     @PSTRINGCN_9600_31766_31767.P1
+01F     @PSTRINGC_727.@SCRATCH1
+020-023 lcd_init.LCD_INIT_STRING
+020     @PSTRINGC_727.@SCRATCH2
+020     @PSTRINGCN_9600_31766_31767.@SCRATCH1
+021     lcd_putc.c
+021     @PSTRINGCN_9600_31766_31767.@SCRATCH2
+021     @PRINTF_LD_9600_31766_31767.@SCRATCH1
+022     lcd_gotoxy.x
+022     @PRINTF_LD_9600_31766_31767.@SCRATCH2
+023     lcd_gotoxy.y
+023     @PRINTF_LD_9600_31766_31767.@SCRATCH3
+024     @delay_ms1.P1
+024     lcd_gotoxy.address
+024     lcd_init.@SCRATCH1
+024     @PRINTF_LD_9600_31766_31767.@SCRATCH4
+025     lcd_gotoxy.@SCRATCH1
+025     @PRINTF_LD_9600_31766_31767.@SCRATCH5
+026     lcd_send_byte.address
+026     @PRINTF_LD_9600_31766_31767.@SCRATCH6
+027     lcd_send_byte.n
+027     @PRINTF_LD_9600_31766_31767.@SCRATCH7
+028     lcd_read_byte.low
+028     lcd_send_byte.@SCRATCH1
+029     lcd_send_nibble.n
+029     lcd_read_byte.high
+02A     lcd_read_byte.@SCRATCH1
+02B     RB_isr.@SCRATCH1
+F83     lcd
+F83     PSP_DATA
+F8C     lcdlat
+F95     lcdtris
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+0000AE  RB_isr
+0000EA  @const746.call
+0000F6  @const751.call
+000104  @delay_ms1
+00012A  lcd_send_nibble
+000148  lcd_read_nibble
+000154  lcd_read_byte
+000196  lcd_send_byte
+0001D0  lcd_init
+000244  lcd_gotoxy
+000266  lcd_putc
+0002B8  @PSTRINGC_727
+0002DA  @PSTRINGCN_9600_31766_31767
+0002FA  @PRINTF_LD_9600_31766_31767
+0003E0  MAIN
+0003E0  @cinit1
+000410  @cinit2
+
+Project Directory:
+    C:\Users\usuario\Desktop\MICROCHIIPS\test1\
+
+Project Files:
+    test2.c                                                 [23-abr.-20 18:59  CRC=B53754E0]
+    config.h                                                [21-abr.-20 21:29  CRC=D872A938]
+    ..\..\..\..\..\Program Files (x86)\PICC\devices\18f4520.h [30-oct.-19 15:52  CRC=812AA903]
+    ..\..\..\..\..\Program Files (x86)\PICC\drivers\lcd.c   [22-feb.-16 10:05  CRC=D1A6378A]
+
+Source signature=B221162F
+Program memory checksum=0000
+Hex file CRC=7DDD
+
+Units:
+    C:\Users\usuario\Desktop\MICROCHIIPS\test1\test2 (main)
+
+Compiler Settings:
+    Processor:      PIC18F4520
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    Errors:      test2.err
+    INHX32:      test2.hex
+    Symbols:     test2.sym
+    List:        test2.lst
+    Debug/COFF:  test2.cof
+    Project:     test2.ccspjt
+    Call Tree:   test2.tre
+    Statistics:  test2.STA

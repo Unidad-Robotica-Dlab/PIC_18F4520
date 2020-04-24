@@ -1,0 +1,56 @@
+"FUSES" (CCS names)
+------------
+
+OSCILLATOR
+-------------
+HS              high speed clock (external xtal)
+XT              medium gain crystal or ceramic resonator
+INTRC           8 MHZ Internal RC clock
+                    OSC1=Gen Purpose I/O, OSC2=Fosc/4
+INTRC_IO        8 MHZ Internal RC clock
+                    OSC1 and OSC2 pins are normal I/O
+LP              low power 32kHz crystal
+EC              external clock with I/O on OSC2
+EC_IO           same as EC_IO (?)
+RC              external RC clock with Fosc/4 on OSC2
+RC_IO           external RC clock with I/O on OSC2
+
+FCMEN           failsafe clock monitor enabled
+NOFCMEN         no FCMEN
+
+IESO            Internal External Switchover
+NOIESO
+                Switchover means two-speed clock startup:
+                1024 cycles at low speed, then go to external
+                oscillator for high speed
+
+------------------
+
+SECURITY
+---------
+PROTECT         turn on code protect -
+                    blocks reading of the MCU program
+NOPROTECT       no code protect
+CPD             data eeprom protect -
+                    only cpu can access eeprom
+NOCPD           no CPD protection
+
+------------------
+
+RESET
+-------------
+
+WDT             activate watchdog timer
+NOWDT           no watchdog timer
+
+BROWNOUT        enable brownout protection
+NOBROWNOUT      no brownout protection
+BROWNOUT_SW     enable software control (?) of brownout
+BROWNOUT_NOSL   disable brownout sensing during sleep
+
+PUT             power up timer enabled
+NOPUT           power up timer disabled
+--> PUT is enabled by default when BROWNOUT is enabled
+
+MCLR            enable master clear (reset pin)
+NOMCLR          reset pin is normal I/O (input ONLY) 
