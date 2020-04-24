@@ -4,6 +4,8 @@
 
 *Configuración Fuses: -config.h
 
-*Ejemplos Componentes: -Encoder 2 Fase 400p.
+*Ejemplos Componentes: 
+-Encoder 2 Fase 400p.
+-Blink Led 
 
 *Proyectos: -Implementación de códigos
