@@ -10,6 +10,6 @@
 
 -Blink Led 
 
--LCD 16*2
+-Lcd 16*2
 
 *Proyectos: -Implementación de códigos
