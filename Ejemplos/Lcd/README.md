@@ -1,8 +1,6 @@
-# Blink Led RB0
+# LCD
 
-Led RB0 
-
-*parpadeo led RB0 para compilar y cargar pic.
+Lcd 16*2
 
 *ccs 5.095
 
