@@ -2,7 +2,7 @@
 
 Led RB0 
 
-*parpadeo de led RB0 para compilar y cargar pic.
+*parpadeo led RB0 para compilar y cargar pic.
 
 *ccs 5.095
 
