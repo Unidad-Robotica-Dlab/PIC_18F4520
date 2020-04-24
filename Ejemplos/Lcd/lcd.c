@@ -1,23 +1,31 @@
 #include <config.h>
 #include <lcd.c>
+//
+//lcd 
+//
+//#define LCD_ENABLE_PIN  PIN_E0                                    ////
+////     #define LCD_RS_PIN      PIN_E1                                    ////
+////     #define LCD_RW_PIN      PIN_E2                                    ////
+////     #define LCD_DATA4       PIN_D4                                    ////
+////     #define LCD_DATA5       PIN_D5                                    ////
+////     #define LCD_DATA6       PIN_D6                                    ////
+////     #define LCD_DATA7       PIN_D7 
+//
 
 
-#define E_PWM pin_d3
-
-
-
-
+#define HW_LCD_BLACKLIGHT PIN_E2
 
 
 void main()
 {
-setup_timer_1(T2_DIV_BY_1, 255, 1);
-setup_ccp1(CCP_PWM);  
 
-set_pwm1_duty(125);
+
+lcd_init();
+lcd_putc("\fReady...\n");
+output_low(HW_LCD_BLACKLIGHT);
+
 
 while(1){
-
 
 
 
