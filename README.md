@@ -12,4 +12,6 @@
 
 -Lcd 16*2
 
+-pwm dc motor
+
 *Proyectos: -Implementación de códigos
