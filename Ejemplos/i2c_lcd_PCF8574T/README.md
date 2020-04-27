@@ -1,9 +1,18 @@
-# Blink Led RB0
+# LCD_i2c
+Description:   Driver for common LCD with 1/2/3 or 4 rows by 1...20 columns 
+               using PCF8574T interface board with I2C protocol. 
+               
+lcd_init() Must be called before any other function. 
 
-Led RB0 
+lcd_putc(c) Will display c on the next position of the LCD. 
+  
+\f Clear LCD display 
 
-*parpadeo led RB0 para compilar y cargar pic.
+\n Set write position on next lcd line 
 
-*ccs 5.095
+\b LCD backspace 
 
-*PIC18F4520
+lcd_gotoxy(x,y) Set write position on LCD (upper left is 1,1)
+
+lcd_backlight_led(ON)/lcd_backlight_led(OFF) = Turn ON/OFF LCD Backlight LED 
+
