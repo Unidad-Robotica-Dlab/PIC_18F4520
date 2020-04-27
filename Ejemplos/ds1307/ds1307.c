@@ -19,7 +19,7 @@
 #define RTC_SDA  PIN_C4
 #define RTC_SCL  PIN_C3
 
-#use i2c(master, sda=RTC_SDA, scl=RTC_SCL)
+//#use i2c(master, sda=RTC_SDA, scl=RTC_SCL)
 
 BYTE bin2bcd(BYTE binary_value);
 BYTE bcd2bin(BYTE bcd_value);
