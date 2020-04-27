@@ -4,7 +4,7 @@
 
 *Configuración Fuses: -config.h
 
-*Ejemplos Componentes: 
+*Ejemplos: 
 
 -Encoder 2 Fase 400p.
 
