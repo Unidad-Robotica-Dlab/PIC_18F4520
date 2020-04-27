@@ -14,4 +14,8 @@
 
 -pwm dc motor
 
+-i2c scanner
+
+-i2c lcd pcf8574t
+
 *Proyectos: -Implementación de códigos
