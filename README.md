@@ -14,6 +14,8 @@
 
 -pwm dc motor
 
+-ds1307
+
 -i2c scanner
 
 -i2c lcd pcf8574t
