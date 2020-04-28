@@ -1,4 +1,7 @@
-# PIC_18F4520
+# PIC_18F4520 
+#Proyecto Ctrl Respirador HW PCB Rev B 
+
+#Ejemplos
 
 *Herramientas: -MPLAB 8.89 -Pickit2 o Superior
 
@@ -20,4 +23,3 @@
 
 -i2c lcd pcf8574t
 
-*Proyectos: -Implementación de códigos
