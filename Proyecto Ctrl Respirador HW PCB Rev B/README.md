@@ -1,23 +1,12 @@
 # PIC_18F4520
 
-*Herramientas: -MPLAB 8.89 -Pickit2 o Superior
-
-*Configuración Fuses: -config.h
-
-*Ejemplos: 
-
--Encoder 2 Fase 400p.
-
--Blink Led 
-
--Lcd 16*2
-
--pwm dc motor
-
--ds1307
-
--i2c scanner
-
--i2c lcd pcf8574t
-
-*Proyectos: -Implementación de códigos
+/*****************************************************
+Project : Ctrl Respirador HW PCB Rev B
+Version : 1.0
+Date    : 14/07/2020
+Author  : Eduardo Illescas
+Company :
+Comments:
+Chip type               : PIC 18F4520
+Program type            : Application
+*****************************************************/
