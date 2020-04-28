@@ -20,4 +20,3 @@
 
 -i2c lcd pcf8574t
 
-*Proyectos: -Implementación de códigos
