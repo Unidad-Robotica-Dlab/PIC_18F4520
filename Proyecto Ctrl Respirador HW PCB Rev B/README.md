@@ -4,7 +4,7 @@ Version : 1.0
 
 Date    : 28/04/2020
 
-Author  : Eduardo Illescas, Carlos Sagredo
+Author  : Eduardo Illescas, Carlos Sagredo, Leonardo Campos
 
 Company :
 
